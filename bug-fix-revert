@@ -1,0 +1,7 @@
+Command:
+curl.exe -s https://api.github.com/repos/sumiyabazarn790-byte/IBM/pulls?state=all
+
+Output:
+[
+
+]

@@ -1,5 +1,5 @@
 Command:
-curl.exe -s https://api.github.com/repos/sumiyabazarn790-byte/mcino-Introduction-to-Git-and-GitHub
+curl -s https://api.github.com/repos/sumiyabazarn790-byte/mcino-Introduction-to-Git-and-GitHub
 
 Output:
 {

@@ -1,0 +1,6 @@
+Command:
+git branch -vv
+
+Output:
+  bug-fix-typo 428205f Fix README title typo
+* main         9d63377 [origin/main] Add bug fix revert API output

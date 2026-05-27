@@ -1,0 +1,128 @@
+/* Ерөнхий тохиргоо */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* 1 ба 2. Навигаци цэсний загвар */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #512da8; /* Нил ягаан өнгө */
+  padding: 15px 50px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.profile-name h1 {
+  color: #ffffff;
+  font-size: 24px;
+  margin: 0;
+}
+
+.nav-links a {
+  color: #e0d8ff;
+  text-decoration: none;
+  margin-left: 25px;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+/* 2. Сонголт дээр хулгана очих үед стиль өөрчлөгдөж, доогуур зураас гарна (3 оноо) */
+.nav-links a:hover {
+  color: #ffffff;
+  font-weight: bold;
+  text-decoration: underline; /* Доогуур зураас */
+  letter-spacing: 0.5px;
+}
+
+.home-icon i {
+  font-size: 18px;
+}
+
+/* Хэсгүүдийн (Sections) ерөнхий загвар */
+.section {
+  padding: 60px 50px;
+}
+.bg-light { background-color: #f5f5f7; }
+.section-title {
+  text-align: center;
+  margin-bottom: 40px;
+  color: #512da8;
+}
+
+/* 3. About Me хэсгийн бүтэц */
+.about-container {
+  display: flex;
+  max-width: 900px;
+  margin: 0 auto;
+  align-items: center;
+  gap: 40px;
+}
+.profile-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #512da8;
+}
+
+/* 4, 5. Карт, Грид загварууд */
+.skills-grid, .projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.skill-card, .project-card, .rec-card {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+  text-align: center;
+}
+
+.skill-card i { font-size: 40px; margin-bottom: 10px; display: block; }
+.text-html { color: #e34c26; }
+.text-css { color: #264de4; }
+.text-react { color: #61dbfb; }
+.text-db { color: #00758f; }
+
+.project-card h3 { color: #512da8; margin-top: 0; }
+
+/* 6 ба 7. Зөвлөмжийн жагсаалт */
+.recommendations-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 700px;
+  margin: 0 auto 40px auto;
+}
+.rec-card { text-align: left; border-left: 5px solid #512da8; }
+
+/* Формын загвар */
+.add-recommendation {
+  max-width: 500px;
+  margin: 0 auto;
+  background: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+.add-recommendation form { display: flex; flex-direction: column; gap: 15px; }
+.add-recommendation textarea, .add-recommendation input {
+  padding: 10px; border: 1px solid #ddd; border-radius: 4px; font-size: 14px;
+}
+.add-recommendation button {
+  background: #512da8; color: white; border: none; padding: 12px;
+  border-radius: 4px; cursor: pointer; font-weight: bold; transition: background 0.3s;
+}
+.add-recommendation button:hover { background: #311b92; }

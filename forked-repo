@@ -1,54 +1,33 @@
 Command:
-curl.exe -s https://api.github.com/repos/sumiyabazarn790-byte/IBM
+curl.exe -s https://api.github.com/repos/sumiyabazarn790-byte/mcino-Introduction-to-Git-and-GitHub
 
 Output:
 {
-  "id": 1250916352,
-  "node_id": "R_kgDOSo94AA",
-  "name": "IBM",
-  "full_name": "sumiyabazarn790-byte/IBM",
+  "id": 1250931416,
+  "name": "mcino-Introduction-to-Git-and-GitHub",
+  "full_name": "sumiyabazarn790-byte/mcino-Introduction-to-Git-and-GitHub",
   "private": false,
-  "owner": {
-    "login": "sumiyabazarn790-byte",
-    "id": 250919629,
-    "node_id": "U_kgDODvS6zQ",
-    "avatar_url": "https://avatars.githubusercontent.com/u/250919629?v=4",
-    "gravatar_id": "",
-    "url": "https://api.github.com/users/sumiyabazarn790-byte",
-    "html_url": "https://github.com/sumiyabazarn790-byte",
-    "followers_url": "https://api.github.com/users/sumiyabazarn790-byte/followers",
-    "following_url": "https://api.github.com/users/sumiyabazarn790-byte/following{/other_user}",
-    "gists_url": "https://api.github.com/users/sumiyabazarn790-byte/gists{/gist_id}",
-    "starred_url": "https://api.github.com/users/sumiyabazarn790-byte/starred{/owner}{/repo}",
-    "subscriptions_url": "https://api.github.com/users/sumiyabazarn790-byte/subscriptions",
-    "organizations_url": "https://api.github.com/users/sumiyabazarn790-byte/orgs",
-    "repos_url": "https://api.github.com/users/sumiyabazarn790-byte/repos",
-    "events_url": "https://api.github.com/users/sumiyabazarn790-byte/events{/privacy}",
-    "received_events_url": "https://api.github.com/users/sumiyabazarn790-byte/received_events",
-    "type": "User",
-    "user_view_type": "public",
-    "site_admin": false
-  },
-  "html_url": "https://github.com/sumiyabazarn790-byte/IBM",
-  "description": null,
-  "fork": false,
-  "url": "https://api.github.com/repos/sumiyabazarn790-byte/IBM",
-  "created_at": "2026-05-27T04:42:45Z",
-  "updated_at": "2026-05-27T04:54:42Z",
-  "pushed_at": "2026-05-27T04:54:38Z",
-  "git_url": "git://github.com/sumiyabazarn790-byte/IBM.git",
-  "ssh_url": "git@github.com:sumiyabazarn790-byte/IBM.git",
-  "clone_url": "https://github.com/sumiyabazarn790-byte/IBM.git",
-  "svn_url": "https://github.com/sumiyabazarn790-byte/IBM",
-  "homepage": null,
-  "language": "HTML",
-  "license": {
-    "key": "apache-2.0",
-    "name": "Apache License 2.0",
-    "spdx_id": "Apache-2.0",
-    "url": "https://api.github.com/licenses/apache-2.0",
-    "node_id": "MDc6TGljZW5zZTI="
-  },
+  "html_url": "https://github.com/sumiyabazarn790-byte/mcino-Introduction-to-Git-and-GitHub",
+  "description": "Introduction-to-Git-and-GitHub",
+  "fork": true,
+  "url": "https://api.github.com/repos/sumiyabazarn790-byte/mcino-Introduction-to-Git-and-GitHub",
+  "clone_url": "https://github.com/sumiyabazarn790-byte/mcino-Introduction-to-Git-and-GitHub.git",
   "visibility": "public",
-  "default_branch": "main"
+  "default_branch": "main",
+  "parent": {
+    "id": 1050225087,
+    "name": "mcino-Introduction-to-Git-and-GitHub",
+    "full_name": "ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub",
+    "html_url": "https://github.com/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub",
+    "fork": false,
+    "url": "https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub"
+  },
+  "source": {
+    "id": 1050225087,
+    "name": "mcino-Introduction-to-Git-and-GitHub",
+    "full_name": "ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub",
+    "html_url": "https://github.com/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub",
+    "fork": false,
+    "url": "https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub"
+  }
 }
